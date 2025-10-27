@@ -62,3 +62,16 @@ h2 {
     width: 100%;
     height: auto;
 }
+
+.slika p:last-child {
+    font-size: 0.8em;
+    margin-top: 0.5em;
+}
+
+a::before {
+    content: "$";
+}
+
+img {
+    border-radius: 50%;
+}
