@@ -11,4 +11,5 @@ Shift + Home = Označi celo vrstico nazaj
 Shift + End = Označi celo vrstico naprej
 Home ali End = Na začetek ali konec vrstice
 Ctrl + Home ali End = Na začetek ali konec besedila
+Ctrl + K Ctrl + O = Zamenjaj repozitorij
 dopolni README
