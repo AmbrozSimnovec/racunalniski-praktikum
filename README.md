@@ -4,7 +4,7 @@ Ctrl + Tab = Naslednji zavihek (Tab)
 Alt + Tab = Odpri okno z zavihki
 Alt + W = Zapri zavihek
 Alt + F4 = Zapri vse
-Ctrl + Shift + K = Undo
+Ctrl + Z= Undo
 Ctrl + S = Save
 Ctrl + F = Iskanje besed VScode
 Shift + Home = Označi celo vrstico nazaj
@@ -22,7 +22,19 @@ Ukazi:
 
     LATEX:
     Surround
+    \qquad - presledek
 
 REGEX - Na browserju, da vidiš kaj delaš
+
+Ruslan rešitve link: github.com/iruspro/rp
+
+
+Prehajanje med izvorno kodo v .tex datoteki in PDF datoteko v VSCode:   
+    Windows:
+        iz .tex v PDF:
+            Ctrl + Alt + J
+    
+        iz PDF v .tex:
+            Ctrl + klik
 
 dopolni README
