@@ -38,3 +38,5 @@ Prehajanje med izvorno kodo v .tex datoteki in PDF datoteko v VSCode:
             Ctrl + klik
 
 dopolni README
+
+file:///C:/Users/as81000/RP/racunalniski-praktikum/03-html/stran.html
