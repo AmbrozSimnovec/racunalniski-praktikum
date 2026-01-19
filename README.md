@@ -19,6 +19,7 @@ Ctrl + Delete = Delete v desno
 Ukazi:
     HTML:
     Wrap
+    Format document = poravna razdelke
 
     LATEX:
     Surround
@@ -40,6 +41,7 @@ Prehajanje med izvorno kodo v .tex datoteki in PDF datoteko v VSCode:
 
 EXCEL:
 Ctrl + Shift + down = Označi cel stolpec
+Ctrl + A = Označi vse polne celice
 
 dopolni README
 
