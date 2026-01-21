@@ -15,6 +15,8 @@ Ctrl + K Ctrl + O = Zamenjaj repozitorij
 Ctrl + Shift + M = Problems VSCode
 Ctrl + Alt + X = Latex commands
 Ctrl + Delete = Delete v desno
+Ctrl + Shift + V = opoen preview html
+Alt + Z = koda ne gre pod preview
 
 Ukazi:
     HTML:

@@ -1,0 +1,77 @@
+body {
+    /*  Barva pisave pod značko oz. oznako  */
+    color: #333333; 
+    /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
+       Če ni nameščena nobena od naštetih pisav, se uporabi privzeta pisava brskalnika. */
+    font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;
+    /*  Velikost pisave lahko določimo na več načinov.
+        Spodnji jo določi glede na velikost pisave v znački, ki je na enem nivoju višje;
+        če velikost pisave na zgornjem nivoju ni določena, se določi glede na privzeto velikost pisave v brskalniku. */
+    font-size: 1.2em;
+    /*  Višina vrstice  */
+    line-height: 1.5;
+    /*  Največja širina vsebine spletne strani  */
+    max-width: 40em;
+    /*  Širina zunanjega roba; auto pomeni, da rob izračuna brskalnik tako, da element zavzame širino določeno v slogu,
+        preostanek pa se enakomerno razdeli med levim in desnim robom  */
+    margin: auto;
+    /*  Obojestranska poravnava besedila    */
+    text-align: justify;
+}
+
+/*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
+a { text-decoration: none; outline:none; }
+/*  Spremenimo barve povezav: neobiskanih, obiskanih, pod miško in aktivnih */
+a:link { color:#cc0000; }
+a:visited { color:#660066; }
+a:hover { color:#660066; }
+a:active { color:#990000; outline:none; }
+
+code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    color: #009966;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    margin-top: 2em;
+    border-top-color: #AAAAAA;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 0.5em;
+}
+
+#uvod {
+    padding: 2em;
+    background-color: rgb(51, 0, 102, 0.1);
+}
+
+.slika {
+    /* border: 3px red solid; */
+    font-size: 0.9em;
+    width: 40%;
+    text-align: left;
+    float: right;
+    margin-left: 2em;
+}
+
+.slika img {
+    width: 100%;
+    height: auto;
+}
+
+.slika p:last-child {
+    font-size: 0.8em;
+    margin-top: 0.5em;
+}
+
+a::before {
+    content: "🔗";
+}
+
+img {
+    border-radius: 50%;
+}
