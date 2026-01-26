@@ -17,6 +17,8 @@ Ctrl + Alt + X = Latex commands
 Ctrl + Delete = Delete v desno
 Ctrl + Shift + V = opoen preview html
 Alt + Z = koda ne gre pod preview
+Ctrl + R = osveži brskalnik
+Ctrl + Alt + R = hard refresh
 
 Ukazi:
     HTML:

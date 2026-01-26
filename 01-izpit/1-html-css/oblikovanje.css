@@ -1,6 +1,6 @@
 body {
     /*  Barva pisave pod značko oz. oznako  */
-    color: #333333; 
+    color: #333333;
     /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
        Če ni nameščena nobena od naštetih pisav, se uporabi privzeta pisava brskalnika. */
     font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;
@@ -20,19 +20,76 @@ body {
 }
 
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
-a { text-decoration: none; outline:none; }
+a {
+    text-decoration: none;
+    outline: none;
+}
+
 /*  Spremenimo barve povezav: neobiskanih, obiskanih, pod miško in aktivnih */
-a:link { color:#cc0000; }
-a:visited { color:#660066; }
-a:hover { color:#660066; }
-a:active { color:#990000; outline:none; }
+a:link {
+    color: #cc0000;
+}
+
+a:visited {
+    color: #660066;
+}
+
+/*psevdo-razredi, hover = ko je miška nad značko*/
+a:hover {
+    color: #660066;
+}
+
+a:active {
+    color: #990000;
+    outline: none;
+}
 
 code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: #009966;
 }
+tbody td:nth-child(1) {
+    background-color: #0cd5c1;
+}/*razlika med tabelama - prva ni razdeljena na body in head*/
 
-h1 {
+#pot tbody tr:nth-child(even) {
+    background-color: #e90707;
+}
+
+/*ZNAČKE*/
+
+/* Glavni gradniki CSS so deklaracije, ki jih sestavimo v bloke in jim dodamo izbiralce, ki določijo na katerih elementih se bodo uporabile.
+Primer deklaracije:
+    color: red;
+    font-size: 14px;
+Primer bloka z značko h1:
+   h1 {
+    color: red;
+    font-size: 14px;
+    }
+*/
+
+/*Sestavljeni izbiralec: staknemo brez presledkov; pri tem moramo paziti na to, da najprej napišemo izbiralec za značke ali univerzalni izbiralec. 
+Primer: p.poudarjeno združi izbiralca p in .poudarjeno: izbere vse značke p (za odstavke), ki imajo določen atribut class z vrednostjo poudarjeno.*/
+
+/*Potomce izbiramo s kombinatorjem (presledek). Na primer, izbiralec li a izbere vse povezave (a), ki so v elementih seznama (li).*/
+
+/*Z vejico , združimo več izbiralcev v enega: izbiralec h1, h2 izbere vse značke h1 in h2.*/
+
+/*zunanji prazen prostor (zunanji rob): angl. margin,
+notranji prazen prostor (notranji rob): angl. padding,
+obroba oz. rob: angl. border,
+višina: angl. height,
+širina: angl. width.*/
+
+
+/* univerzalni izbiralec (*)- izbere vse elemente na strani */
+
+
+h1
+
+/* izbiralec za značko h1 (navaden izbiralec)*/
+    {
     color: red;
 }
 
@@ -44,12 +101,18 @@ h2 {
     padding-top: 0.5em;
 }
 
-#uvod {
+#uvod
+
+/* izbiralec za id uvod */
+    {
     padding: 2em;
     background-color: rgb(51, 0, 102, 0.1);
 }
 
-.slika {
+.slika
+
+/* izbiralec za razred slika */
+    {
     /* border: 3px red solid; */
     font-size: 0.9em;
     width: 40%;
