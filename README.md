@@ -56,6 +56,35 @@ Prikazni način:
 Vrstični način:
 \(...\) ali $...$
 
+
+
+\theoremstyle{stil npr. plain}
+\newtheorem{envirnment name}{Printed text}[section = resetira oštevilčenje za vsako sekcijo]
+
+\newcommand{\command}[število argumentov, ki jih lahko sprejme, optional][default = če ne vstaviš argumenta latex vstavi default arg., optional]{kaj bo pisalo namesto \command}
+
+\input{datoteka} ukaz za vključevanje vsebine druge .tex datoteke v trenutno datoteko.
+
+\begin{array}{c|c|c|c}
+
+\begin{itemize}
+    \item ...
+    \item ...
+
+\begin{magic}{Magični kvadrat reda 3}{table:mag3}{3}
+   8 & 1 & 6 \\ \hline
+   3 & 5 & 7 \\ \hline
+   4 & 9 & 2 \\ \hline
+\end{magic}
+
+
+%konec dokumenta%
+\bibliographystyle{stil}
+
+%datoteka za Bibtex%
+\bibliography{magic.bib}
+
+
 \usepackage{...}
 | Paket                  | Namen                                              |
 | ---------------------- | -------------------------------------------------- |
@@ -73,22 +102,6 @@ Vrstični način:
 | `cite`                 | izboljšani numerični citati                        |
 | `url`                  | pravilni prelomi URL-jev (pogosto že v `hyperref`) |
 | `array`                | custom matrike, {c|c|c}                            |
-
-
-\theoremstyle{stil npr. plain}
-\newtheorem{envirnment name}{Printed text}[section = resetira oštevilčenje za vsako sekcijo]
-
-\newcommand{\command}[število argumentov, ki jih lahko sprejme, optional][default = če ne vstaviš argumenta latex vstavi default arg., optional]{kaj bo pisalo namesto \command}
-
-\input{datoteka} ukaz za vključevanje vsebine druge .tex datoteke v trenutno datoteko.
-
-\begin{array}{c|c|c|c}
-
-%konec dokumenta%
-\bibliographystyle{stil}
-
-%datoteka za Bibtex%
-\bibliography{magic.bib}
 
 
 | Ukaz / Okolje                  | Kratek opis lastnosti |
