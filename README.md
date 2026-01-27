@@ -46,10 +46,20 @@ Prehajanje med izvorno kodo v .tex datoteki in PDF datoteko v VSCode:
 EXCEL:
 Ctrl + Shift + down = Označi cel stolpec
 Ctrl + A = Označi vse polne celice
+CEILING = zaokroži navzgor
 
 LATEX:
 simbol v command (Deexify)
 https://detexify.kirelabs.org/classify.html
+
+amsmath dokumentacija:
+https://ctan.org/pkg/amsmath
+
+Overleaf matrike (in ostalo) dokumentacija:
+https://www.overleaf.com/learn/latex/Matrices
+
+paketi dokumentacija:
+https://www.ctan.org/
 
 Prikazni način:
 \[...\], ali $$...$$
@@ -148,7 +158,7 @@ Vrstični način:
 | `\bibliographystyle{...}`        | Določi slog bibliografije (npr. plain, unsrt) |
 | `\bibliography{file}`            | Vključi bibliografijo iz datoteke `.bib` |
 
-
+Beamer
 | Ukaz / Okolje             | Namen / Primer                                                                |
 |---------------------------|-------------------------------------------------------------------------------|
 | `\usetheme{tema}`         | Nastavi Beamer temo (`\usetheme{Madrid}`)                                     |
@@ -165,7 +175,7 @@ Vrstični način:
 | `\column{width}`          | Določa širino posameznega stolpca (`\column{0.5\textwidth}`)                  |
 
 
-
+Matematika
 | Kategorija | Ukaz | Kratek opis | Primer |
 |------------|------|-------------|--------|
 | **Posebni prikazi** |
