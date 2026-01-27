@@ -48,6 +48,11 @@ Ctrl + Shift + down = Označi cel stolpec
 Ctrl + A = Označi vse polne celice
 CEILING = zaokroži navzgor
 
+Dokumentacija za formule:
+https://exceljet.net/formulas
+
+
+
 LATEX:
 simbol v command (Deexify)
 https://detexify.kirelabs.org/classify.html
