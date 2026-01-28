@@ -51,6 +51,17 @@ CEILING = zaokroži navzgor
 Dokumentacija za formule:
 https://exceljet.net/formulas
 
+HTML:
+
+| Vrsta izbiralca | Zapis | Opis | Primer |
+|----------------|-------|------|--------|
+| Značka (element) | `⟨znacka⟩` | Izbere vse elemente dane HTML značke | `p { color: red; }` |
+| Razred | `.⟨razred⟩` | Izbere vse elemente z določenim razredom | `.warning { color: orange; }` |
+| Identifikator | `#⟨id-elementa⟩` | Izbere element z določenim `id` (unikaten) | `#header { height: 60px; }` |
+| Univerzalni | `*` | Izbere vse elemente na strani | `* { box-sizing: border-box; }` |
+| Potomci | `⟨starsev⟩ ⟨otrok⟩` | Izbere vse potomce znotraj drugega elementa | `div p { margin: 0; }` |
+| Disjunkcija (ALI) | `⟨prvi⟩, ⟨drugi⟩` | Izbere elemente, ki ustrezajo kateremukoli izbiralcu | `h1, h2 { font-weight: bold; }` |
+| Konjunkcija (IN) | `⟨prvi⟩⟨drugi⟩` | Izbere elemente, ki hkrati ustrezajo obema izbiralcema | `p.highlight { color: blue; }` |
 
 
 LATEX:
