@@ -28,6 +28,7 @@ Ukazi:
     LATEX:
     Surround
     \qquad - presledek
+    \leq - manjše ali enako
 
 REGEX - Na browserju, da vidiš kaj delaš
 
