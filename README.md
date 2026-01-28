@@ -29,6 +29,11 @@ Ukazi:
     Surround
     \qquad - presledek
     \leq - manjše ali enako
+        Makro lahko uporabljamo kot okrajšavo
+    \newcommand{\RR}{\mathbb{R}}    realna števila, \mathbb{..} je iz amssymb
+    \newcommand{\NN}{\mathbb{N}}    naravna števila
+    \label command is used to create a reference point that you can refer to later with \ref
+    prim.:\label{sec:...} (sec = section, eq = equasion)
 
 REGEX - Na browserju, da vidiš kaj delaš
 
