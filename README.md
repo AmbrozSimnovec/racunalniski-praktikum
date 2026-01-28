@@ -100,7 +100,7 @@ Vrstični način:
 
 \input{datoteka} ukaz za vključevanje vsebine druge .tex datoteke v trenutno datoteko.
 
-\begin{array}{c|c|c|c}
+\begin{array}{c} ... center; {l} ... levo; {ll} ... dva stolpca levo
 
 \begin{itemize}
     \item ...
