@@ -66,6 +66,9 @@ https://www.overleaf.com/learn/latex/Matrices
 paketi dokumentacija:
 https://www.ctan.org/
 
+Latex validator:
+https://www.dainiak.com/latexcheck/
+
 Prikazni način:
 \[...\], ali $$...$$
 Vrstični način:
